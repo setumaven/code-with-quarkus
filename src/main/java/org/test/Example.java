@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/explorer")
 public class Example {
-
+//added comment
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
